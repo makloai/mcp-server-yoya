@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.makloai/yoya-booking",
+  "title": "Yoya Booking",
+  "description": "Book meetings on a host's real availability. No auth - mirrors their public Yoya page.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/makloai/mcp-server-yoya",
+    "source": "github"
+  },
+  "websiteUrl": "https://yoya.ai",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://yoya.ai/api/mcp/book"
+    }
+  ]
+}
