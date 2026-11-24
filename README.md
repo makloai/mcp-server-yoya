@@ -11,6 +11,21 @@ Yoya runs two remote MCP servers. Both are hosted by Yoya over streamable HTTP, 
 
 Both are listed on the official MCP Registry as `io.github.makloai/yoya` and `io.github.makloai/yoya-booking`.
 
+## Install the Yoya skill in Hermes Agent
+
+```bash
+hermes skills install makloai/mcp-server-yoya/yoya
+```
+
+To browse the repository as a Hermes Skills Hub tap:
+
+```bash
+hermes skills tap add makloai/mcp-server-yoya
+hermes skills search yoya --source github
+```
+
+The [Yoya skill](skills/yoya/SKILL.md) is available under the [MIT license](skills/yoya/LICENSE).
+
 ## Connect
 
 **Claude Code**
